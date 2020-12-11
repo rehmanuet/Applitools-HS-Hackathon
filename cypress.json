@@ -1,4 +1,5 @@
 {
+    "baseUrl": "https://demo.applitools.com",
     "watchForFileChanges": false,
     "chromeWebSecurity": false
 }

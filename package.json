@@ -1,17 +1,33 @@
 {
-  "name": "applitools-hs-hackathon",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "cypress": "cypress open",
-    "test": "cypress run"
+  "name":"applitools-hs-hackathon",
+  "version":"1.0.0",
+  "description":"It contains Applitools Home Shopping Hackathon submission",
+  "main":"index.js",
+  "scripts":{
+     "cypress":"cypress open",
+     "task:v1":"cypress run --env app_version=/tlcHackathonMasterV1.html",
+     "task:dev":"cypress run --env app_version=/tlcHackathonDev.html",
+     "task:final":"cypress run --env app_version=/tlcHackathonMasterV2.html"
   },
-  "keywords": [],
-  "author": "Abdur Rehman Ashraf",
-  "license": "ISC",
-  "dependencies": {
-    "@applitools/eyes-cypress": "^3.16.1",
-    "cypress": "^6.1.0"
+  "keywords":[
+     "Applitools",
+     "Hackathon",
+     "Cypress",
+     "Ultra Fast Grid",
+     "Visual Testing"
+  ],
+  "author":{
+     "name":"Abdur Rehman Ashraf",
+     "email":"14-cp-69@students.uettaxila.edu.pk",
+     "url":"https://linkedin.com/in/rehmanuet/"
+  },
+  "repository":{
+     "type":"git",
+     "url":"git@github.com:rehmanuet/Applitools-HS-Hackathon.git"
+  },
+  "license":"ISC",
+  "dependencies":{
+     "@applitools/eyes-cypress":"^3.16.1",
+     "cypress":"^6.1.0"
   }
 }

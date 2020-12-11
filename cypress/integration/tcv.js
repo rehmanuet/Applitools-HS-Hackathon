@@ -3,7 +3,7 @@
 
 describe("Holiday Shopping Hackathon", () => {
     beforeEach(() => {
-        cy.visit('https://demo.applitools.com/tlcHackathonMasterV1.html')
+        cy.visit(Cypress.env('app_version'))
     })
     afterEach(() => {
         cy.eyesClose()
