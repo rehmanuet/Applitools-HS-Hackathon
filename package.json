@@ -1,0 +1,17 @@
+{
+  "name": "APPLITOOLS-HS-HACKATHON",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "Abdur Rehman Ashraf",
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.16.1",
+    "cypress": "^6.1.0"
+  }
+}
