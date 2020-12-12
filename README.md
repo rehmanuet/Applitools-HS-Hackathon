@@ -14,8 +14,8 @@
 `set $APPLITOOLS_API_KEY = <KEY_FROM_APPLITOOLS_DASHBOARD>`<br/>
 5. Use following commands to run test <br/>
 
- |<b><sub>Applifashion App Version</sub></b>|    <b><sub>Command</sub>   </b> ||<b><sub>Batch Test Results URL</sub></b>|
- | ------------- | ------------- | ------------- |
+ | <b><sub>Applifashion App Version</sub></b> |    <b><sub>Command</sub>   </b> | <b><sub>Batch Test Results URL</sub></b> |
+ | :-: | :-: | :-: |
  |     <sub>V1 Production Version</sub>    | <sub>npm run task:v1</sub>  | <sub>[Part 1](https://eyes.applitools.com/app/test-results/00000251794584931554?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794507287201%283%29)</sub>  |
  |     <sub>Dev-Branch Version</sub>   |     <sub>npm run task:dev</sub>          |<sub>[Part 2](https://eyes.applitools.com/app/test-results/00000251794583948126?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794507287201%283%29)</sub>  |
  | <sub>Final Production Version</sub> | <sub>npm run task:final</sub>   |<sub>[Part 3](https://eyes.applitools.com/app/test-results/00000251794507287201?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794507287201%283%29)</sub>  |
@@ -24,40 +24,10 @@
 
 
 
-#### Browser & Viewport Catered
-|    Browsers   |    Version    |
-| :-:  | :-:  |
-|     <sub>Chrome</sub>    |<sub>1200x800</sub>  |
-|     <sub>Firefox</sub>   | <sub>1200x800</sub>   |
-| <sub>Edge Chromium</sub> | <sub>1200x800</sub>   |
-| <sub>Safari</sub> | <sub>1200x800</sub>   |
-| <sub>iPhone X </sub> | <sub>Potriat</sub>   |
-
-
-
-#### Task Status
-|    Approach  |    Task Completion |    Overall Time Taken  | 
-| :-: | :-: |:-: |
-|    <b> <sub>Traditional</sub> </b>   | <sub>All Tasks</sub>  | <sub>11 hours</sub>    |
-|     <b><sub>Modern</sub></b>   | <sub>All Tasks</sub>        | <sub> 4 hours</sub>    |
-
-#### Task 1 V1
-<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Task_1.JPG??raw=true" width="700" height="400" />
-
-#### Task 2 V1
-<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Task_2.JPG??raw=true" width="800" height="400" />
-
-#### Task 3 V1
-<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Task_3.JPG??raw=true" width="800" height="400" />
-
-### Impressive Catchs
-
-#### Expectect (V1) | Actual (V2)
-`By hovering with mouse on product it makes Add to Favorite/Compare/Cart visible which is being missed in V2`
-<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20a.JPG??raw=true" width="200" height="200" /><img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20a1.JPG??raw=true" width="200" height="200" /> </br>
-
-` Quick Links is not collapsed with V2 on Mobile Devices` </br>
-<img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20b1%20(2).JPG?raw=true" width="200" height="200" /><img src="https://raw.githubusercontent.com/rehmanuet/DataEssential/master/junk/Bug%20b1%20(1).JPG?raw=true" width="200" height="350" /> </br>
-
-
+#### Root Cause Analysis
+|   <sub> RCA of Test 3 </sub>   |
+| :-:  | 
+|     <sub>[RCA for Description and Rating issue](https://eyes.applitools.com/app/test-results/00000251794583948126/00000251794583916341/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6ODE2LjMwNDg3ODA0ODc4MDQsImxlZnQiOjE0Ljk5OTk5OTk5OTk5OTk5OCwid2lkdGgiOjM3LCJoZWlnaHQiOjI0LjM5MDI0MzkwMjQzOTAyNX0sInZpZXdNb2RlIjoiYWN0dWFsIn0%3D)</sub> |
+|     <sub>[RCA for Discount Percentage's badge](https://eyes.applitools.com/app/test-results/00000251794583948126/00000251794583916341/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6NzcyLCJsZWZ0Ijo4ODksIndpZHRoIjo4OCwiaGVpZ2h0IjoyMH0sInZpZXdNb2RlIjoiZXhwZWN0ZWQifQ%3D%3D)</sub>   |
+| <sub>[RCA for Add to cart button's Top Margin alignment](https://eyes.applitools.com/app/test-results/00000251794583948126/00000251794583916341/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6NzQ4LjAwMDM3NDk4MTI1MSwibGVmdCI6MTA2Mywid2lkdGgiOjEyMywiaGVpZ2h0IjoxNC45OTkyNTAwMzc0OTgxMjV9LCJ2aWV3TW9kZSI6ImFjdHVhbCJ9&mode=step-editor)</sub> |
 
