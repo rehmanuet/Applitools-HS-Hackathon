@@ -7,7 +7,6 @@
 #### Setup
 1. Clone the Repo<br />
 `$ git clone git@github.com:rehmanuet/Applitools-HS-Hackathon.git`<br/>
-
 2. Open the Project<br />
 3. Install the dependencies from package.json<br />
  `$ npm install`<br />
@@ -15,32 +14,25 @@
 `set $APPLITOOLS_API_KEY = <KEY_FROM_APPLITOOLS_DASHBOARD>`<br/>
 5. Use following commands to run test <br/>
 
- |<b><sub>Applifashion App Version</sub></b>|    <b><sub>Command</sub>   </b> |
- | ------------- | ------------- |
- |     <sub>V1 Production Version</sub>    | <sub>npm run task:v1</sub>  |
- |     <sub>Dev-Branch Version</sub>   |     <sub>npm run task:dev</sub>          |
- | <sub>Final Production Version</sub> | <sub>npm run task:final</sub>   |
+ |<b><sub>Applifashion App Version</sub></b>|    <b><sub>Command</sub>   </b> ||<b><sub>Batch Test Results URL</sub></b>|
+ | ------------- | ------------- | ------------- |
+ |     <sub>V1 Production Version</sub>    | <sub>npm run task:v1</sub>  | <sub>[Part 1](https://eyes.applitools.com/app/test-results/00000251794584931554?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794507287201%283%29)</sub>  |
+ |     <sub>Dev-Branch Version</sub>   |     <sub>npm run task:dev</sub>          |<sub>[Part 2](https://eyes.applitools.com/app/test-results/00000251794583948126?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794507287201%283%29)</sub>  |
+ | <sub>Final Production Version</sub> | <sub>npm run task:final</sub>   |<sub>[Part 3](https://eyes.applitools.com/app/test-results/00000251794507287201?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794507287201%283%29)</sub>  |
 
 
 
 
 
 #### Browser & Viewport Catered
-|    Browsers   |    Version    |    Device    |   Viewport    |
-| :-:  | :-:  | :-: | :-: |
-|     <sub>Chrome</sub>    |<sub>1200x700</sub>  |
-|     <sub>Firefox</sub>   | <sub>800x700</sub>   |
-| <sub>Edge Chromium</sub> | <sub>500x700</sub>   |
-| <sub>Safari</sub> | <sub>500x700</sub>   |
+|    Browsers   |    Version    |
+| :-:  | :-:  |
+|     <sub>Chrome</sub>    |<sub>1200x800</sub>  |
+|     <sub>Firefox</sub>   | <sub>1200x800</sub>   |
+| <sub>Edge Chromium</sub> | <sub>1200x800</sub>   |
+| <sub>Safari</sub> | <sub>1200x800</sub>   |
 | <sub>iPhone X </sub> | <sub>Potriat</sub>   |
 
-#### Traditional Test Cases count
-|    <sub>Task</sub>  |    <sub>Test cases (incl. different viewports)</sub> |  <sub>Browser Count</sub>  |  <sub>Total Test cases</sub>
-| :-:  | :-: | :-: | :-:  |
-|    <b> <sub>Task 1</sub> </b>   | <sub>26</sub>  | <sub>3</sub>    | <sub>78</sub> |
-|    <b> <sub>Task 2</sub> </b>   | <sub>6</sub>  | <sub>3</sub>    | <sub>18</sub> |
-|    <b> <sub>Task 3</sub> </b>   | <sub>15</sub>  | <sub>3</sub>    | <sub>45</sub> |
-<b><sub>Sub Total Test cases</sub></b>|  |  | <b><sub>141</b></sub>
 
 
 #### Task Status
