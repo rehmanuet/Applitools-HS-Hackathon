@@ -41,8 +41,7 @@ Failed because of slight pixel shift in Final Production version which is someti
 
 #### Implementation
 * Followed the Visual testing [best practices](https://applitools.com/automated-visual-testing-best-practices-guide/) of **Applitools** such as:
-  * Used beforeEach() for eyes instance initialization to remove the code redundancy.
-  * Used afterEach() to close the eyes instance after every tesrtcase.
+  * Used beforeEach() for eyes instance initialization to remove the code redundancy & afterEach() to close the eyes instance after every testcase.
   * Verified the entire page where needed (fully option)
   * Used the Strict match level
   * Grouped the tests into batches
