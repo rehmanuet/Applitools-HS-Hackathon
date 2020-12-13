@@ -34,7 +34,7 @@ describe("Holiday Shopping Hackathon", () => {
             testName: 'Test 2'
         })
 
-        // Checks nable to black color filter
+        // Click to enable the black color filter
         cy.get('#colors__Black').click()
 
         // Clicks on filter button
