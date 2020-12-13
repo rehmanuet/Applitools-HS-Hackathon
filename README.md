@@ -21,13 +21,37 @@
  | <sub>Final Production Version</sub> | <sub>npm run task:final</sub>   |<sub>[Part 3](https://eyes.applitools.com/app/test-results/00000251794453703011?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794453703011%283%29)</sub>  |
 
 
-
-
-
 #### Root Cause Analysis
 |   <sub> RCA of Test 3 </sub>   |
 | :-:  | 
 |     <sub>[RCA for Description and Rating issue](https://eyes.applitools.com/app/test-results/00000251794496956257/00000251794496924548/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6NzcxLjQ5ODQ5OTg0OTk4NDksImxlZnQiOjU3LjQ5ODQ5OTg0OTk4NDk5NSwid2lkdGgiOjMwLjAwMzAwMDMwMDAzMDAwMywiaGVpZ2h0IjozMC4wMDMwMDAzMDAwMzAwMDN9LCJ2aWV3TW9kZSI6ImFjdHVhbCJ9&mode=step-editor)</sub> |
 |     <sub>[RCA for Discount Percentage's badge](https://eyes.applitools.com/app/test-results/00000251794496956257/00000251794496924548/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6NzcyLjAwMDAwMDAwMDAwMDEsImxlZnQiOjg4OSwid2lkdGgiOjg4LCJoZWlnaHQiOjIwfSwidmlld01vZGUiOiJhY3R1YWwifQ%3D%3D&mode=step-editor)</sub>   |
 | <sub>[RCA for Add to cart button's Top Margin alignment](https://eyes.applitools.com/app/test-results/00000251794496956257/00000251794496924548/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6NzkxLCJsZWZ0IjoxMDY0LCJ3aWR0aCI6MTIxLCJoZWlnaHQiOjEwfSwidmlld01vZGUiOiJhY3R1YWwifQ%3D%3D&mode=step-editor)</sub> |
+
+
+#### Part-3 Test-1 Chrome (Exact Mode Preview)
+Failed because of slight pixel shift in Final Production version which is sometimes common in browser updates.
+<img src="https://github.com/rehmanuet/DataEssential/blob/master/junk/Task%201%20Part%203%20view%20as%20Exact.png?raw=true" width="1000" height="400"/>
+
+#### Implementation
+* Followed the Visual testing [best practices](https://applitools.com/automated-visual-testing-best-practices-guide/) of **Applitools** such as:
+  * Used beforeEach() for eyes instance initialization to remove the code redundancy.
+  * Used afterEach() to close the eyes instance after every tesrtcase.
+  * Verified the entire page where needed (fully option)
+  * Used the Strict match level
+  * Grouped the tests into batches
+  * Used the Ultrafast Grid to run cross-platform tests
+  * Used _applitools.config.js_ for configuration
+  
+* Followed the best practices for **Cypress**
+  * Used _cypress.json_ for baseURL
+  * Used command-line-interface for specifying app version i.e 
+  ```sh
+     cypress run --env app_version=/tlcHackathonMasterV1.html
+     cypress run --env app_version=/tlcHackathonDev.html
+     cypress run --env app_version=/tlcHackathonMasterV2.html
+  ```
+  * Used beforeEach() and afterEach() for same functionality for different testcases
+  * Proper usage of describe and it for testsuite and tescases management.
+  
 
