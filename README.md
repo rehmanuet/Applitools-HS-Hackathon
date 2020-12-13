@@ -43,7 +43,7 @@ Failed because of slight pixel shift in Final Production version which is someti
   * Used the Ultrafast Grid to run cross-platform tests
   * Used _applitools.config.js_ for configuration
   
-* Followed the best practices for **Cypress**
+* Followed the [best practices](https://docs.cypress.io/guides/references/best-practices.html) for **Cypress**
   * Used _cypress.json_ for baseURL
   * Used command-line-interface for specifying app version i.e 
   ```sh
