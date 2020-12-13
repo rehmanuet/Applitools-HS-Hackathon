@@ -16,9 +16,9 @@
 
  | <b><sub>Applifashion App Version</sub></b> |    <b><sub>Command</sub>   </b> | <b><sub>Batch Test Results URL</sub></b> |
  | :-: | :-: | :-: |
- |     <sub>V1 Production Version</sub>    | <sub>npm run task:v1</sub>  | <sub>[Part 1](https://eyes.applitools.com/app/test-results/00000251794584931554?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794507287201%283%29)</sub>  |
- |     <sub>Dev-Branch Version</sub>   |     <sub>npm run task:dev</sub>          |<sub>[Part 2](https://eyes.applitools.com/app/test-results/00000251794583948126?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794507287201%283%29)</sub>  |
- | <sub>Final Production Version</sub> | <sub>npm run task:final</sub>   |<sub>[Part 3](https://eyes.applitools.com/app/test-results/00000251794507287201?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794507287201%283%29)</sub>  |
+ |     <sub>V1 Production Version</sub>    | <sub>npm run task:v1</sub>  | <sub>[Part 1](https://eyes.applitools.com/app/test-results/00000251794497338101?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794453703011%283%29)</sub>  |
+ |     <sub>Dev-Branch Version</sub>   |     <sub>npm run task:dev</sub>          |<sub>[Part 2](https://eyes.applitools.com/app/test-results/00000251794496956257?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794453703011%283%29)</sub>  |
+ | <sub>Final Production Version</sub> | <sub>npm run task:final</sub>   |<sub>[Part 3](https://eyes.applitools.com/app/test-results/00000251794453703011?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&display=details&top=00000251794453703011%283%29)</sub>  |
 
 
 
@@ -27,7 +27,7 @@
 #### Root Cause Analysis
 |   <sub> RCA of Test 3 </sub>   |
 | :-:  | 
-|     <sub>[RCA for Description and Rating issue](https://eyes.applitools.com/app/test-results/00000251794583948126/00000251794583916341/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6ODE2LjMwNDg3ODA0ODc4MDQsImxlZnQiOjE0Ljk5OTk5OTk5OTk5OTk5OCwid2lkdGgiOjM3LCJoZWlnaHQiOjI0LjM5MDI0MzkwMjQzOTAyNX0sInZpZXdNb2RlIjoiYWN0dWFsIn0%3D)</sub> |
-|     <sub>[RCA for Discount Percentage's badge](https://eyes.applitools.com/app/test-results/00000251794583948126/00000251794583916341/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6NzcyLCJsZWZ0Ijo4ODksIndpZHRoIjo4OCwiaGVpZ2h0IjoyMH0sInZpZXdNb2RlIjoiZXhwZWN0ZWQifQ%3D%3D)</sub>   |
-| <sub>[RCA for Add to cart button's Top Margin alignment](https://eyes.applitools.com/app/test-results/00000251794583948126/00000251794583916341/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6NzQ4LjAwMDM3NDk4MTI1MSwibGVmdCI6MTA2Mywid2lkdGgiOjEyMywiaGVpZ2h0IjoxNC45OTkyNTAwMzc0OTgxMjV9LCJ2aWV3TW9kZSI6ImFjdHVhbCJ9&mode=step-editor)</sub> |
+|     <sub>[RCA for Description and Rating issue](https://eyes.applitools.com/app/test-results/00000251794496956257/00000251794496924548/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6NzcxLjQ5ODQ5OTg0OTk4NDksImxlZnQiOjU3LjQ5ODQ5OTg0OTk4NDk5NSwid2lkdGgiOjMwLjAwMzAwMDMwMDAzMDAwMywiaGVpZ2h0IjozMC4wMDMwMDAzMDAwMzAwMDN9LCJ2aWV3TW9kZSI6ImFjdHVhbCJ9&mode=step-editor)</sub> |
+|     <sub>[RCA for Discount Percentage's badge](https://eyes.applitools.com/app/test-results/00000251794496956257/00000251794496924548/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6NzcyLjAwMDAwMDAwMDAwMDEsImxlZnQiOjg4OSwid2lkdGgiOjg4LCJoZWlnaHQiOjIwfSwidmlld01vZGUiOiJhY3R1YWwifQ%3D%3D&mode=step-editor)</sub>   |
+| <sub>[RCA for Add to cart button's Top Margin alignment](https://eyes.applitools.com/app/test-results/00000251794496956257/00000251794496924548/steps/1/edit?accountId=ATz47TlcMkiN9X94Ra6-Bg~~&diff=eyJkaWZmIjp7InRvcCI6NzkxLCJsZWZ0IjoxMDY0LCJ3aWR0aCI6MTIxLCJoZWlnaHQiOjEwfSwidmlld01vZGUiOiJhY3R1YWwifQ%3D%3D&mode=step-editor)</sub> |
 
