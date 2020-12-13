@@ -14,7 +14,7 @@ Email: 14-cp-69@students.uettaxila.edu.pk
 3. Install the dependencies from package.json<br />
  `$ npm install`<br />
 4. Set up environment variable `APPLITOOLS_API_KEY` with your own API key.
-    * Login to Applitools > Click on the Person icon > My API Key
+    * Login to Applitool's Dashboard > Click on Setting button > My API Key
     * Linux/Mac: `export APPLITOOLS_API_KEY=<your_key>`
     * Windows: `set APPLITOOLS_API_KEY=<your_key>`
 5. `npx eyes-setup`
