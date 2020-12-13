@@ -1,7 +1,7 @@
 # Applitools Holiday Shopping Hackathon Cypress
 
 #### Submitter
-Name: Abdur Rehman Ashraf
+Name: Abdur Rehman Ashraf </br>
 Email: 14-cp-69@students.uettaxila.edu.pk
 
 #### Stack
