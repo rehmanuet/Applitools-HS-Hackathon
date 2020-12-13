@@ -15,7 +15,8 @@ Email: 14-cp-69@students.uettaxila.edu.pk
  `$ npm install`<br />
 4. Set the environment variable APPLITOOLS_API_KEY <br/>
 `set $APPLITOOLS_API_KEY = <KEY_FROM_APPLITOOLS_DASHBOARD>`<br/>
-5. Use following commands to run test <br/>
+5. `npx eyes-setup`
+6. Use following commands to run test <br/>
 
  | <b><sub>Applifashion App Version</sub></b> |    <b><sub>Command</sub>   </b> | <b><sub>Batch Test Results URL</sub></b> |
  | :-: | :-: | :-: |
