@@ -49,6 +49,8 @@ Failed because of slight pixel shift in Final Production version which is someti
   * Used _applitools.config.js_ for configuration
   
 * Followed the [best practices](https://docs.cypress.io/guides/references/best-practices.html) for **Cypress**
+  * Used each() function to make locator more generic
+  * Used Page Object Model as design pattern
   * Used _cypress.json_ for baseURL
   * Used command-line-interface for specifying app version i.e 
   ```sh

@@ -1,10 +1,14 @@
 /// <reference types="@applitools/eyes-cypress" />
 
+import HomePage from '../../cypress/support/PageObjects/MainPage.js';
+
 describe("Holiday Shopping Hackathon", () => {
+    let homePage
 
     // Opens different Applifashion App Versions via command-line
     beforeEach(() => {
         cy.visit(Cypress.env('app_version'))
+        homePage=new HomePage()
     })
 
     // Closes the eyes instance after each test
@@ -35,10 +39,10 @@ describe("Holiday Shopping Hackathon", () => {
         })
 
         // Click to enable the black color filter
-        cy.get('#colors__Black').click()
+        homePage.getShoeColor('Black').click()
 
         // Clicks on filter button
-        cy.get('#filterBtn').click()
+        homePage.getFilter().click()
 
         cy.eyesCheckWindow({
             tag: "filter by color",
@@ -55,8 +59,8 @@ describe("Holiday Shopping Hackathon", () => {
             testName: 'Task 3'
         })
 
-        //Opens Appli Air x Night shoe without filtering
-        cy.get('#IMG__imgfluid__215').click()
+        //Clicks Appli Air x Night shoe without filtering
+        homePage.getShoe("Appli Air x Night")
 
         cy.eyesCheckWindow({
             tag: "product details",
